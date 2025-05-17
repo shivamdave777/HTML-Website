@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <h1>
+      <center>Student Registration Form</center>
+    </h1>
+    <h3> <a href="about.html"> About Us </a>   |
+     <a href="contact.html">Contact Us</a> | 
+     <a href="registration.html">Register</a>
+     </h3> 
+     
+    <hr />
+    <marquee scrollamount="7" bgcolor="lightblue">Fill the details and check the email after some movemont for confirmation</marquee>
+    <hr/>
+
+    <center>
+    <form action="submit" method="post">
+      <div>
+        
+        <h3>
+            Candidates have to fill-up these fields to complete the initial
+            process.
+        </h3>
+
+      </div>
+
+      <div>
+        <div>
+        <label>First Name:</label>
+        <input placeholder="Your Name" type="text" required/>
+        </div> 
+        <br/>
+
+        <div>
+        <label>Last Name:</label>
+        <input placeholder="Family Name" type="text"  required/>
+        </div>
+        <br/>
+
+        <div>
+        <label> Enter Your BirthDate: </label>
+        <input placeholder="Choose the entire date" type="date" required/>
+        </div>
+        <br/>
+
+        <div>
+        <label> Email: </label>
+        <input placeholder="abc@gmail.com" type="email" required />
+        </div>
+        <br/>
+
+        <div>
+        <label> Mobile Number: </label>
+        <input required type="text" max="10" min="10" />
+        </div><br/>
+
+
+      </div>
+       
+        
+        <div>
+          <label> Gender:</label>
+          <input type="radio" name="Gender" value="Male" />Male
+          <input type="radio" name="Gender" value="Female" />Female
+        </div>
+      <hr />
+     
+     
+      <div>
+        <strong>Please provide your qualification details accurately. </strong>
+      </div> <br />
+       
+      <div>
+        <div>
+        <label>SSC Percentage: </label>
+        <input
+          placeholder="Enter Your SCC Percentage"
+          required="Percentage"
+          type="number"
+          max="100"/>
+        </div>
+        <br/>
+
+          <div>
+          <label>  HSC Percentage: </label>
+          <input
+            placeholder="Enter Your Hsc Percentage"
+            required="Percentage"
+            type="number"
+            max="100"/>
+          </div>
+
+          <br/>
+
+          <div>
+            <label>  Graduation Grade: </label>
+            <input placeholder="Grade Like A, A+, B, B+, upto D"
+            type="text"
+            required="Grade"
+            max="1" />
+            
+            <label> Upload an image of degree certficate:</label>
+            <input type="file" id="upload" name="image" accept="image/*"/>
+        </div>
+
+        </div>
+
+        <br/>
+
+        <div> 
+            <label> Hobbies: </label>
+            <input
+            placeholder="i.e. Reading, Sprots, Cinema, etc,"
+            required/>
+        </div>
+        
+            <br />
+
+        <div>
+            <label> Knowledge about: C </label>
+            <input type="checkbox" name="C" value="C" />  PHP
+            <input type="checkbox" name="php" value="php" />  C++
+            <input type="checkbox" name="c++" value="c++" />  Java
+            <input type="checkbox" name="Java" value="Java" />  None
+            <input type="checkbox" name="None" value="None" /> 
+        </div>
+
+          <br />
+
+        <div>
+            <label> Address: </label><br/>
+            <textarea maxlength="100" rows="2" cols="40"></textarea>
+        </div>
+        
+
+        <br />
+
+        <div>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+
+        <hr />
+
+        <div>
+           <marquee scrollamount="7" ><img src="https://img.freepik.com/free-vector/thank-you-lettering-with-curls_1262-6964.jpg?semt=ais_hybrid&w=740" alt="Thank You!" width="250px"/> </marquee> 
+        </div>
+        
+        <div> 
+            <h5>If any query, reach to us: shivdave2297@gmail.com </h5>
+        </div>
+
+        <hr />
+
+      </div>
+    </form>
+    </center>
+  </body>
+</html>
